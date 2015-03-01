@@ -20,7 +20,7 @@
   <nav class="light-blue lighten-1" role="navigation">
     <div class="row" >
 	 <div class="col s12">
-      <div class="nav-wrapper"><a id="logo-container" href="#" class="brand-logo" style="font-size:25px;"><img src="logo/logo.svg" style="height:35px; position:relative; top:7px; padding-left:10px; padding-right:10px;"></a>
+      <div class="nav-wrapper"><a id="logo-container" href="#" class="brand-logo" style="font-size:25px;"><img src="../../assets/logo/logo.svg" style="height:35px; position:relative; top:7px; padding-left:10px; padding-right:10px;"></a>
         <ul id="nav-mobile" class="right side-nav">
           <li><a href="#">BERANDA</a></li>
 		  <li>
