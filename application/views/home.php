@@ -6,14 +6,14 @@
   <title>Mahakarya-TC | mahakarya.if.its.ac.id</title>
 
   <!-- CSS  -->
-  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="../../assets/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="../../assets/css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   
       <!-- Bootstrap Core CSS -->
-    <link href="slide/css/bootstrap.css" rel="stylesheet">
+    <link href="../../assets/slide/css/bootstrap.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="slide/css/full-slider.css" rel="stylesheet">
+    <link href="../../assets/slide/css/full-slider.css" rel="stylesheet">
 </head>
 <body>
 <div class="navbar-fixed" style="position:fixed;z-index:1000;top:0">
@@ -176,10 +176,10 @@
 
   <!--  Scripts-->
   <!-- jQuery -->
-    <script src="slide/js/jquery.js"></script>
+    <script src="../../assets/slide/js/jquery.js"></script>
 
 	    <!-- Bootstrap Core JavaScript -->
-    <script src="slide/js/bootstrap.min.js"></script>
+    <script src="../../assets/slide/js/bootstrap.min.js"></script>
     <!-- Script to Activate the Carousel -->
     <script>
     $('.carousel').carousel({
@@ -187,7 +187,7 @@
     })
     </script>
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script src="js/materialize.js"></script>
-  <script src="js/init.js"></script>
+  <script src="../../assets/js/materialize.js"></script>
+  <script src="../../assets/js/init.js"></script>
   </body>
 </html>
