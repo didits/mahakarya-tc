@@ -5,11 +5,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
 <title>Mahakarya-TC | mahakarya.if.its.ac.id</title>
 
-<link href="<?php echo base_url(); ?>css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-<link href="<?php echo base_url(); ?>css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+<link href="<?php echo base_url(); ?>assets/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+<link href="<?php echo base_url(); ?>assets/css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-<script src="<?php echo base_url(); ?>js/init.js"></script>
-<script src="<?php echo base_url(); ?>js/materialize.js"></script>
+<script src="<?php echo base_url(); ?>assets/js/init.js"></script>
+<script src="<?php echo base_url(); ?>assets/js/materialize.js"></script>
 </head>
 
 <body>

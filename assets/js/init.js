@@ -1,9 +1,5 @@
 (function($){
-  //parallax
-  $(document).ready(function(){
-      $('.parallax').parallax();
-    });
-  
+ 
   //slider function
   $(document).ready(function(){
       $('.slider').slider({full_width: false});

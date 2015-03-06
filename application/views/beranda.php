@@ -1,8 +1,8 @@
 <!-- Bootstrap Core CSS -->
-<link href="<?php echo base_url(); ?>slide/css/bootstrap.css" rel="stylesheet">
+<link href="<?php echo base_url(); ?>assets/slide/css/bootstrap.css" rel="stylesheet">
 
 <!-- Custom CSS -->
-<link href="<?php echo base_url(); ?>slide/css/full-slider.css" rel="stylesheet">
+<link href="<?php echo base_url(); ?>assets/slide/css/full-slider.css" rel="stylesheet">
 <!-- slider -->
 <div id="myCarousel" class="carousel slide" >
 	<ol class="carousel-indicators">
@@ -81,10 +81,10 @@
 	<div class="section"> </div>
 </div>
 <!-- jQuery --> 
-<script src="<?php echo base_url(); ?>slide/js/jquery.js"></script> 
+<script src="<?php echo base_url(); ?>assets/slide/js/jquery.js"></script> 
 
 <!-- Bootstrap Core JavaScript --> 
-<script src="<?php echo base_url(); ?>slide/js/bootstrap.min.js"></script> 
+<script src="<?php echo base_url(); ?>assets/slide/js/bootstrap.min.js"></script> 
 <!-- Script to Activate the Carousel --> 
 <script>
     $('.carousel').carousel({

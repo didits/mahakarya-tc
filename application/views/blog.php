@@ -1,12 +1,12 @@
 <div class="parallax-container">
-	<div class="parallax"><img src="<?php echo base_url(); ?>parallax_img/1.jpg"></div>
+	<div class="parallax"><img src="<?php echo base_url(); ?>assets/parallax_img/1.jpg"></div>
 </div>
 <div class="section"> 
 	<!--   Icon Section   -->
 	<div class="row">
 		<div class="col s12 m4">
 			<div class="icon-block">
-				<img src="<?php echo base_url(); ?>parallax_img/2.jpg" style="width:100%; height:50%;"/>
+				<img src="<?php echo base_url(); ?>assets/parallax_img/2.jpg" style="width:100%; height:50%;"/>
 			</div>
 		</div>
 		<div class="col s12 m8">
@@ -23,7 +23,7 @@
 	<div class="row">
 		<div class="col s12 m4">
 			<div class="icon-block">
-				<img src="<?php echo base_url(); ?>parallax_img/2.jpg" style="width:100%"/>
+				<img src="<?php echo base_url(); ?>assets/parallax_img/2.jpg" style="width:100%"/>
 			</div>
 		</div>
 		<div class="col s12 m8">
