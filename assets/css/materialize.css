@@ -6580,7 +6580,7 @@ ul.table-of-contents a {
       padding: 0 15px;
       width: 240px; }
       ul.side-nav li:hover, ul.side-nav li.active {
-        background-color: #ddd; }
+         }
     ul.side-nav a {
       color: #444; }
  }
