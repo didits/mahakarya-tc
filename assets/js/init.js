@@ -1,11 +1,18 @@
 (function($){
   //parallax
+
   $(document).ready(function(){
       $('.parallax').parallax();
 	  $('.button-collapse').sideNav();
       $('.tooltipped').tooltip({delay: 50});
-	   $('.dropdown-button').dropdown({
-      inDuration: 300,
+		 $('.datepicker').pickadate({
+    selectMonths: true, // Creates a dropdown to control month
+    selectYears: 15 // Creates a dropdown of 15 years to control year
+  });
+	$('select').material_select('destroy'); 
+	 $('.dropdown-button').dropdown({
+	
+	 inDuration: 300,
       outDuration: 225,
       constrain_width: true, // Does not change width of dropdown to that of the activator
       hover: true, // Activate on click

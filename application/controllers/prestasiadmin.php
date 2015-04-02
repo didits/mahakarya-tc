@@ -8,6 +8,6 @@ class Prestasiadmin extends CI_Controller {
 		$this->load->view('link');
 		$this->load->view('body_navbaradmin');
 		$this->load->view('prestasiadmin');
-		$this->load->view('footer');
+		$this->load->view('footeradmin');
 	}
 }
