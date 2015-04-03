@@ -1,6 +1,3 @@
-<div class="parallax-container">
-	<div class="parallax"><img src="<?php echo base_url(); ?>assets/blog/tcode.jpg"></div>
-</div>
 <div class="section no-pad-bot" id="index-banner">
 	<div class="container">
 		<div class="row center">

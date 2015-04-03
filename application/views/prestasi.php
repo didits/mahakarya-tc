@@ -1,7 +1,3 @@
-<div class="parallax-container">
-	<div class="parallax"><img src="<?php echo base_url(); ?>assets/blog/tcode.jpg"></div>
-</div>
-
  <div class="row">
  	<div class="col s12">
  		<ul class="tabs">

@@ -1,31 +1,4 @@
 @charset "UTF-8";
-
-/* SpryTabbedPanels.css - version 0.6 - Spry Pre-Release 1.6.1 */
-
-/* Copyright (c) 2006. Adobe Systems Incorporated. All rights reserved. */
-
-/* Horizontal Tabbed Panels
- *
- * The default style for a TabbedPanels widget places all tab buttons
- * (left aligned) above the content panel.
- */
-
-/* This is the selector for the main TabbedPanels container. For our
- * default style, this container does not contribute anything visually,
- * but it is floated left to make sure that any floating or clearing done
- * with any of its child elements are contained completely within the
- * TabbedPanels container, to minimize any impact or undesireable
- * interaction with other floated elements on the page that may be used
- * for layout.
- *
- * If you want to constrain the width of the TabbedPanels widget, set a
- * width on the TabbedPanels container. By default, the TabbedPanels widget
- * expands horizontally to fill up available space.
- *
- * The name of the class ("TabbedPanels") used in this selector is not
- * necessary to make the widget function. You can use any class name you
- * want to style the TabbedPanels container.
- */
 .TabbedPanels {
 	overflow: hidden;
 	margin: 0px;

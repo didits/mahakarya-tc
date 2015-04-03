@@ -1,5 +1,5 @@
 <body style="background-color:#f2f2f2">
-<div class="navbar-fixed" style="position:fixed;z-index:1000;top:0;">
+<div class="navbar">
 	<nav class="lighten-1" role="navigation" style="background-color:#1a1a1a;">
 		<div class="row" >
 			<div class="col s12">
@@ -11,8 +11,8 @@
 
   <!-- Dropdown Structure -->
   <ul id='dropdown1' class='dropdown-content'>
-    <li><a href="#!">Tugas Akhir</a></li>
-    <li><a href="#!">Final Project</a></li>
+    <li><a href="#!">TA</a></li>
+    <li><a href="#!">FP</a></li>
   </ul></li>
 						<li class="waves-effect waves-teal"><a href="<?php echo base_url(); ?>index.php/prestasi">Prestasi</a></li>
 						<li class="waves-effect waves-teal"><a href="<?php echo base_url(); ?>index.php/tentang_kami">Tentang Kami</a></li>
