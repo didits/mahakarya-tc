@@ -1,6 +1,6 @@
  <div class="row">
  	<div class="col s2 grid-example side-nav fixed">
- 		<h5 class="center" style="padding-top:15px; background-color:#3b424b">FP</h5>
+ 		<h5 class="center" style="padding-top:15px; background-color:#3b424b">TA</h5>
  		<ul>
  			<li class="no-padding">
  				<ul class="collapsible collapsible-accordion">
@@ -31,7 +31,7 @@
  	</div>
  	<div class="col s10 grid-example">
  		<div class="section">
- 			<h5 class="center" style="padding-top:15px; background-color:#3b424b">FINAL PROJECT VIDEOS</h5>
+ 			<h5 class="center" style="padding-top:15px; background-color:#3b424b">TUGAS AKHIR VIDEOS</h5>
 			<!--   Icon Section   -->
 			<div class="row" style="background-color:#3b424b; padding-top:30px; border-top:#0CF 1px solid;">
 				

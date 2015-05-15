@@ -1,3 +1,20 @@
+.col.grid-example {
+  border: 1px solid #eee;
+  margin: 7px 0;
+  text-align: center;
+  line-height: 50px;
+  font-size: 28px;
+  background-color: #3b424b;
+  color: white;
+  padding: 0; 
+}
+
+.col.grid-example span {
+  font-weight: 200;
+  line-height: 50px; 
+}
+
+
 .parallax-container {
       height: 400px;
     }
