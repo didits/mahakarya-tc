@@ -2,14 +2,14 @@
 	display: block;
 	width: 100%;
 	height: 300px;
-	background-color: #3b424b;
-	border: 5px #3b424b solid;
+	background-color:#CCC;
+	border: 5px #fff solid;
 }
 .kotak {
 	opacity: .85;
-	background-color: #3b424b;
+	background-color: #ccc;
 	height: 200px;
-	border: 5px #3b424b solid;
+	border: 5px #fff solid;
 	padding:0;
 }
 .kotak:hover {
