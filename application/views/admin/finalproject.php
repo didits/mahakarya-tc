@@ -24,7 +24,7 @@
 				<div class="col-lg-12">
 				<div class="col-lg-6">
 				<div class="row">
-					<form action="http://localhost/mahakarya_TC/admin/submit_fp" role="form" method="post">
+					<form action="http://localhost/mahakarya-tc/admin/submit_fp" role="form" method="post">
 						<div class="form-group" >	
 							<label>Judul Final Project</label>
 							<input class="form-control" type="text" name="judul">
