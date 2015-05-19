@@ -21,8 +21,9 @@ class Admin extends CI_Controller {
 	}
 		public function final_project_edit()
 	{
+		$data['h'] = $this->insert_model->showfp();
 		$this->load->view('admin/header');
-		$this->load->view('admin/finalproject_edit');
+		$this->load->view('admin/finalproject_edit', $data) ; 
 		$this->load->view('admin/footer');
 	}
 		public function final_project_hapus()
@@ -70,6 +71,7 @@ class Admin extends CI_Controller {
 	
 		public function submit_fp()
 		{
+
 			$judul=$this->input->post('judul');
 			$nrp1=$this->input->post('nrp1');
 			$nrp2=$this->input->post('nrp2');
@@ -86,7 +88,6 @@ class Admin extends CI_Controller {
 			$demo=$this->input->post('demo');
 				
 				$this->insert_model->infp($judul,$nrp1,$nrp2,$nrp3,$nrp4,$nrp5,$nrp6,$deskripsi,$semester,$nip,$matkul,$screenshot,$video,$demo);
-		
 			$this->load->view('admin/header');
 			$this->load->view('admin/finalproject');
 			$this->load->view('admin/footer');
