@@ -15,10 +15,9 @@ class insert_model extends CI_Model{
 {
 	return $this->db->query("CALL SP_INSERT_FP('$judul','$nrp1','$nrp2','$nrp3','$nrp4','$nrp5','$nrp6','$deskripsi','$semester','$nip','$matkul','$screenshot','$video','$demo')");
 }
-public function showfp()
-{
+public function showfp(){
 	$query = $this->db->get('fp');
-	return $query
+	return $query;
 }
 public function add_fp()
 	{

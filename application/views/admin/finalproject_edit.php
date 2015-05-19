@@ -44,29 +44,29 @@
 										<th></th>
                                      
                                     </tr>
-									<?php
-									foreach($h->result() as $row)
-									{
-										?>
+		<?php  
+         foreach ($h->result() as $row)  
+         {  
+            ?>
 									
 									<tbody>
-										<td><?php echo row->JUDUL_FP;?></td>
+										<td><?php echo $row->JUDUL_FP;?></td>
 										<td></td>NRP1
 										<td></td>NRP2
 										<td></td>NRP3
 										<td></td>NRP4
 										<td></td>NRP5
 										<td></td>NRP6
-										<td><?php echo row->NIP;?></td>
-										<td><?php echo row->DESKRIPSI_FP;?></td>
-										<td><?php echo row->SEMESTER;?></td>
-										<td><?php echo row->MATA_KULIAH;?></td>
-										<td><?php echo row->IMAGE;?>/td>
-										<td><?php echo row->LINK_VIDIO;?></td>
-										<td><?php echo row->DEMO_PDF;?></td>
+										<td><?php echo $row->NIP;?></td>
+										<td><?php echo $row->DESKRIPSI_FP;?></td>
+										<td><?php echo $row->SEMESTER;?></td>
+										<td><?php echo $row->MATA_KULIAH;?></td>
+										<td><?php echo $row->IMAGE;?>/td>
+										<td><?php echo $row->LINK_VIDEO;?></td>
+										<td><?php echo $row->DEMO_PDF;?></td>
 										<td><button type="submit" class="btn btn-default">Ubah</button></td>
 									</tbody>
-									<?php}
+									<?php }
 									?>
                                 </thead>
                              </table>
