@@ -28,12 +28,12 @@
                                 <thead>
                                     <tr>
                                         <th>Judul</th>
-                                        <th>NRP User 1</th>
-										<th>NRP User 2</th>
-										<th>NRP User 3</th>
-										<th>NRP User 4</th>
-										<th>NRP User 5</th>
-										<th>NRP User 6</th>
+                                        <th>NRP1</th>
+										<th>NRP2</th>
+										<th>NRP3</th>
+										<th>NRP4</th>
+										<th>NRP5</th>
+										<th>NRP6</th>
 										<th>NIP Dosen</th>
                                         <th>Deskripsi Final Project</th>
 										<th>Semester</th>
@@ -51,12 +51,12 @@
 									
 									<tbody>
 										<td><?php echo $row->JUDUL_FP;?></td>
-										<td></td>NRP1
-										<td></td>NRP2
-										<td></td>NRP3
-										<td></td>NRP4
-										<td></td>NRP5
-										<td></td>NRP6
+										<td></td>
+										<td></td>
+										<td></td>
+										<td></td>
+										<td></td>
+										<td></td>
 										<td><?php echo $row->NIP;?></td>
 										<td><?php echo $row->DESKRIPSI_FP;?></td>
 										<td><?php echo $row->SEMESTER;?></td>
