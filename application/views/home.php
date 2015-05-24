@@ -173,19 +173,24 @@
     </div>
   </footer>
 
-
-  <!--  Scripts-->
-  <!-- jQuery -->
-    <script src="../../assets/slide/js/jquery.js"></script>
-
-	    <!-- Bootstrap Core JavaScript -->
-    <script src="../../assets/slide/js/bootstrap.min.js"></script>
-    <!-- Script to Activate the Carousel -->
-    <script>
-    $('.carousel').carousel({
-        interval: 5000 //changes the speed
-    })
-    </script>
+	<script src="<?php echo base_url();?>assets/js/wow.min.js"></script> 
+<script>
+			wow = new WOW(
+			  {
+				animateClass: 'animated',
+				offset:       100,
+				callback:     function(box) {
+				  console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
+				}
+			  }
+			);
+			wow.init();
+			document.getElementById('moar').onclick = function() {
+			  var section = document.createElement('section');
+			  section.className = 'section--purple wow fadeInDown';
+			  this.parentNode.insertBefore(section, this);
+			};
+		  </script>
   <script src="../../assets/js/materialize.js"></script>
   <script src="../../assets/js/init.js"></script>
   </body>

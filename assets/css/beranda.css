@@ -75,23 +75,3 @@
   color: #cccccc;
   cursor: pointer;
 }
-#slider {
-	height: 100%;
-	width: 100%;
-	margin: 0px;
-}
-#slider ul {
-	position: relative;
-	padding: 0;
-	list-style: none;
-}
-#slider ul li {
-	position: relative;
-	display: block;
-	float: left;
-	margin: 0;
-	padding: 0;
-	width:50%;
-	background: #ccc;
-	text-align: center;
-}
