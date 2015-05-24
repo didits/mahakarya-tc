@@ -10,12 +10,12 @@
          foreach ($h->result() as $row)  
          {  
             ?>
-				<a href="<?php echo base_url();?>final_project/matakuliah/<?php echo $row->id;?>"><div class="col s12 m2 kotak2">
+				<div class="col s12 m2 kotak2">
 					<div class="gambar_kotak2"> <img src="<?php echo base_url(); ?>assets/img/folder.png" style="width:100%; height:100%;"/> </div>
 					<div class="caption2">
-						<p align="center"><?php echo $row->nama_matakuliah;?></p>
+						<p align="center"><?php echo $row->tahun;?></p>
 					</div>
-				</div></a>
+				</div>
 				<?php }?>
 			</div>
 		</div>

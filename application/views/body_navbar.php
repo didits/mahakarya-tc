@@ -6,9 +6,9 @@
 				<div class="nav-wrapper"><span style="margin-left:10px; position:relative; top:7px; margin-right:10px;"><img src="<?php echo base_url(); ?>assets/logo/logo.svg" width="50px"/></span><span style="color:#00ffff; font-size:18px;">Mahakarya-TC</span>
 					<ul id="nav-mobile" class="right side-nav">
 						<li class="waves-effect"><a style="color:#666" href="<?php echo base_url(); ?>">Beranda</a></li>
-						<li class="waves-effect"><a style="color:#666" href="<?php echo base_url(); ?>final_project">FP</a></li>
-						<li class="waves-effect"><a style="color:#666" href="<?php echo base_url(); ?>tugas_akhir">TA</a></li>
-						<li class="waves-effect"><a style="color:#666" href="<?php echo base_url(); ?>karya_lomba">Lomba</a></li>
+						<li class="waves-effect"><a style="color:#666" href="<?php echo base_url(); ?>final_project">Final Project</a></li>
+						<li class="waves-effect"><a style="color:#666" href="<?php echo base_url(); ?>tugas_akhir">Tugas Akhir</a></li>
+						<li class="waves-effect"><a style="color:#666" href="<?php echo base_url(); ?>karya_lomba">Karya Lomba</a></li>
 						<li class="waves-effect"><a style="color:#666" href="<?php echo base_url(); ?>prestasi">Prestasi</a></li>
 						<li class="waves-effect"><a style="color:#666" href="<?php echo base_url(); ?>tentang_kami">Tentang Kami</a></li>
 					</ul>
