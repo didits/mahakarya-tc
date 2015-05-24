@@ -1,9 +1,8 @@
 <div class="row">		
-	
-	
+
 	<div class="col s12 m12">
 		<div class="section">
-			<h5 class="center" style=" background-color:#fff; color:#666">FINAL PROJECT</h5>
+			<h5 class="center" style=" background-color:#fff; color:#666;">FINAL PROJECT</h5>
 			<!--   Icon Section   -->
 			<div class="row" style="background-color:#fff; padding-top:30px; border-top:#0CF 1px dashed;">
 			<?php  
