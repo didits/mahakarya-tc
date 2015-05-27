@@ -1,4 +1,4 @@
-<div class="row">		
+<div class="row" style="min-height:100vh">		
 	
 	
 	<div class="col s12 m12">
