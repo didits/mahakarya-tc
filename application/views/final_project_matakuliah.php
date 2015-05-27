@@ -1,11 +1,11 @@
-<div class="row">		
+<div class="row" style="min-height:100vh">		
 	
 	
 	<div class="col s12 m12">
 		<div class="section">
 		
 		<a href="<?php echo base_url();?>final_project" class="waves-effect waves-light btn-flat" style="margin-top:5px; color:#CCC"><i class="mdi-hardware-keyboard-backspace left"></i>back</a>
-			<h5 class="center" style=" background-color:#fff; color:#666;";>FINAL PROJECT</h5>
+			<h5 class="center" style=" background-color:#fff; color:#666;";>FINAL PROJECT / MATAKULIAH</h5>
 			<!--   Icon Section   -->
 			<div class="row" style="background-color:#fff; padding-top:30px; border-top:#0CF 1px dashed;">
 			<?php  

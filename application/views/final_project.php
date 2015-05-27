@@ -9,8 +9,8 @@
          foreach ($h->result() as $row)  
          {  
             ?>
-				<a href="<?php echo base_url();?>final_project/matakuliah/<?php echo $row->id;?>"><div class="col s12 m2 kotak2">
-					<div class="gambar_kotak2"> <img src="<?php echo base_url(); ?>assets/img/folder.png" style="width:100%; height:100%;"/> </div>
+				<a href="<?php echo base_url();?>final_project/matakuliah/<?php echo $row->id;?>"><div class="wow fadeIn col s12 m2 kotak2">
+					<div class="gambar_kotak2" > <img src="<?php echo base_url(); ?>assets/img/folder.png" style="width:100%; height:100%;"/> </div>
 					<div class="caption2">
 						<p align="center"><?php echo $row->nama_matakuliah;?></p>
 					</div>
@@ -20,3 +20,16 @@
 		</div>
 	</div>
 </div>
+<script src="<?php echo base_url();?>assets/js/wow.min.js"></script> 
+<script>
+			wow = new WOW(
+			  {
+				animateClass: 'animated',
+				offset:       150,
+				callback:     function(box) {
+				  console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
+				}
+			  }
+			);
+			wow.init();
+		  </script>
