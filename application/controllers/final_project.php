@@ -44,7 +44,7 @@ class Final_project extends CI_Controller {
 		$this->load->view('header');
 		$this->load->view('beranda/link_beranda');
 		$this->load->view('body_navbar');
-		$this->load->view('final_project _rinci', $data);
+		$this->load->view('tugas_akhir _rinci', $data);
 		$this->load->view('end_of_tab');
 		$this->load->view('footer');
 	}
