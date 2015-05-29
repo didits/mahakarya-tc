@@ -8,6 +8,7 @@ class fp_model extends CI_Model{
 	
 	public function show_matakuliah()
 	{
+		$this->db->order_by("nama_matakuliah","asc");
 		$query = $this->db->get('matakuliah');
 		return $query;
 	}

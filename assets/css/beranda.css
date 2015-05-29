@@ -6,14 +6,11 @@
 	border: 5px #fff solid;
 }
 .kotak {
-	background-color: #ccc;
 	height: 200px;
-	border: 5px #fff solid;
 	padding:0;
 }
 .kotak:hover {
-	cursor: pointer;
-	border: 5px #0099FF solid;
+	cursor:pointer;
 }
 .kotak2 {
 	background-color: #fff;
