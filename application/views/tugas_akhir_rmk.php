@@ -13,7 +13,7 @@
          {  
             ?>
 				<a href="<?php echo base_url();?>tugas_akhir/rincian_ta/<?php echo $row->ID_TA;?>"><div class="col s12 m2 kotak2">
-					<div class="gambar_kotak3" style="background-image:url(<?php echo base_url(); ?>uploads/ta/img/<?php echo $row->ID_TA;?>.jpg); background-position:center; background-size:cover"> </div>
+					<div class="gambar_kotak3" style="background-image:url(<?php echo base_url(); ?>uploads/ta/doc.png); background-position:center; background-size:contain; background-repeat:no-repeat"> </div>
 					<div class="caption3">
 						<p><?php echo $row->JUDUL_TA;?></p>
 					</div>

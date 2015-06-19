@@ -20,7 +20,7 @@
 	</div>		
 	<div class="col s12 m8" style="background-color:#fff; border-top:#0CF 1px solid;">
 			<p align="justify"><span style="font-weight:800; font-style:italic; color:#FFF">Deskripsi: </span><?php echo $row->DESKRIPSI_TA;?></p>
-			<iframe frameborder="0" src = "<?php echo base_url();?>uploads/fp/ViewerJS/#../pdf/<?php echo $row->ID_TA;?>.pdf" width='100%' height='600' allowfullscreen webkitallowfullscreen></iframe>
+			<img src="<?php echo base_url();?>uploads/ta/<?php echo $row->ID_TA;?>.jpg" width="100%" />
 	</div>
 	<div class="col s12 m2" style=" border-top:#0CF 1px solid">
 		<p style="font-weight:800; font-style:italic; color:#06F; font-size:18px"><i class="mdi-content-remove"></i> Anggota <i class="mdi-content-remove"></i></p>

@@ -17,8 +17,8 @@
 			<div class="col l3 s12">
 				<h5 class="white-text">Media Sosial</h5>
 				<ul>
-					<li><a class="white-text" href="#!">Facebook</a></li>
-					<li><a class="white-text" href="#!">Twitter</a></li>
+					<li><a class="white-text" href="https://www.facebook.com/mahakaryatc">Facebook</a></li>
+					<li><a class="white-text" href="https://www.youtube.com/channel/UC6MfFWj9oEMvvhEM9PhUnew">Youtube</a></li>
 				</ul>
 			</div>
 		</div>

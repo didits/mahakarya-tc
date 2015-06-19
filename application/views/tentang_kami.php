@@ -9,10 +9,7 @@
 	<div class="section"> 
 		<!--   Icon Section   -->
 		<div class="row">
-		<?php  
-         foreach ($h->result() as $row)  
-         {  
-            ?>
+		<?php foreach ($h->result() as $row){?>
 			<div class="wow fadeIn col s12 m3">
 				<div class="icon-block" style="margin-bottom:30px">
 					<h1 align="center"><div class="hexagon hexagon2"><div class="hexagon-in1"><div class="hexagon-in2" style="background-image: url(<?php echo base_url(); ?>assets/tentang_kami/<?php echo $row->user_id;?>.jpg);"></div></div></div></h1>

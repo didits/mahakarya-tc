@@ -8,7 +8,6 @@
 						<li class="waves-effect"><a style="color:#666" href="<?php echo base_url(); ?>">Beranda</a></li>
 						<li class="waves-effect"><a style="color:#666" href="<?php echo base_url(); ?>final_project">Final Project</a></li>
 						<li class="waves-effect"><a style="color:#666" href="<?php echo base_url(); ?>tugas_akhir">Tugas Akhir</a></li>
-						<li class="waves-effect"><a style="color:#666" href="<?php echo base_url(); ?>karya_lomba">Karya Lomba</a></li>
 						<li class="waves-effect"><a style="color:#666" href="<?php echo base_url(); ?>prestasi">Prestasi</a></li>
 						<li class="waves-effect"><a style="color:#666" href="<?php echo base_url(); ?>tentang_kami">Tentang Kami</a></li>
 					</ul>
