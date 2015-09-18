@@ -64,3 +64,7 @@ Acknowledgement
 
 The EllisLab team and The Reactor Engineers would like to thank all the
 contributors to the CodeIgniter project and you, the CodeIgniter user.
+
+.. image:: https://badges.gitter.im/Join%20Chat.svg
+   :alt: Join the chat at https://gitter.im/didits/mahakarya-tc
+   :target: https://gitter.im/didits/mahakarya-tc?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge
